@@ -3,13 +3,13 @@
 The idea of this project is collecting simple implementation and examples for libraries and framework to help learning or selecting this libraries and frameworks. **Any contribution is welcome!** Just add your examples to this project.   
 
 ## I. Development
-### 1. Common frameworks and libraries
+### Common frameworks and libraries
 * 1. [Apache Commons](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/common-frameworks-and-lib/apache-commons-lib)
 * 2. [Guava](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/common-frameworks-and-lib/guava-lib)
 * 3. [Quasar](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/common-frameworks-and-lib/quasar)
 * 4. [Spring](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/common-frameworks-and-lib/spring)
 
-### 1. Usefull libraries
+### Usefull libraries
 #### Collections
 * 1. [Apache Commons](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/usefull-libraries/collections/apache-commons)
 * 2. [Gs/Eclipse](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/usefull-libraries/collections/gs-eclipse)
@@ -60,6 +60,5 @@ The idea of this project is collecting simple implementation and examples for li
 * 11.  [Json schema validator](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/json/json_schema_validator)
          
 ## IV. Testing
-### 1. Testing
 * 1.  [cucumber](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/testing/cucumber)
 * 2.  [Mockito](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/testing/mockito)
