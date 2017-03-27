@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+
+    <groupId>com.github.vedenin</groupId>
+    <artifactId>hellowords</artifactId>
+    <version>0.01</version>
+    <name>Main</name>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+    <modules>
+        <module>1.1-common-frameworks-and-lib</module>
+        <module>1.6-usefull-libraries</module>
+        <module>2.8-machine-learning</module>
+        <module>2.8-natural-language-processing</module>
+        <module>3.7-web-crawling-and-html-parser</module>
+        <module>3.8-json</module>
+        <module>4.1-testing</module>
+        <module>5.0-other-examples</module>
+        <module>9.9-template</module>
+    </modules>
+</project>
