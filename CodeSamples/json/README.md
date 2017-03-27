@@ -1,10 +1,10 @@
-[To Useful Java links project](https://github.com/Vedenin/useful-java-links) / [To Hello World project](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds)  
+[To Useful Java links project](https://github.com/teocci/JavaGuideLinks) / [To Hello World project](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples)  
 
-## Json Hello World examples
+## JSON Code Samples
 
-The Json parsers libraries offer 3 main methods for processing JSON and 1 additional:
+The JSON parsers libraries offer 3 main methods for processing JSON and 1 additional:
 
-  1. **Data Binding** converts JSON to and from POJOs based either on property accessor conventions or annotations.
+  1. **Data Binding** converts JSON to and from POJOs based either on property accessors, conventions or annotations.
   2. **Tree Model** provides a mutable in-memory tree representation of a JSON document.
   3. **Streaming API** (aka "Incremental parsing/generation") reads and writes JSON content as discrete events.
   4. (additional) **XPath analog** - working with a JSON structure in the same way as XPath expression are used in combination with an XML document.
@@ -13,35 +13,35 @@ The Json parsers libraries offer 3 main methods for processing JSON and 1 additi
 
 **Property** | [Fastjson ](https://github.com/alibaba/fastjson)| [Gson](https://github.com/google/gson) |  [LoganSquare](https://github.com/bluelinelabs/LoganSquare) | [JSON java](https://github.com/stleary/JSON-java) |  [Moshi](https://github.com/square/moshi) | [Ig json parser](https://github.com/Instagram/ig-json-parser) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [Genson](http://owlike.github.io/genson/) | [JsonPath](https://github.com/jayway/JsonPath) | [JSON.simple](https://github.com/fangyidong/json-simple) 
  ----------	 | --- | --- |  --- | --- |  --- | --- | --- | --- | --- | ---
-1. Data bind | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson)| [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | - | - 
-2. Tree Model | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)| -  | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java) | - | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java) | - | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_simple) 
-3. Streaming API | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/StreamingAPI.java)| -  | - | - | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/StreamingAPI.java) | - | - 
-4. Analog XPath | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java) | - | -  | - | - | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java) | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)| -
-5. Generation classes at compile-time | - | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | - | - | -| -
+1. Data bind | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/fastjson)| [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/gson) | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/logansquare)  | - | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/moshi) | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/ig_json_parser) | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/jackson) | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/genson) | - | - 
+2. Tree Model | - | [Yes](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)| -  | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_java) | - | - | [Yes](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java) | - | - | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_simple) 
+3. Streaming API | - | [Yes](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/gson/src/main/java/gson/advanced/StreamingAPI.java)| -  | - | - | - | [Yes](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/jackson/src/main/java/jackson/advanced/StreamingAPI.java) | - | - 
+4. Analog XPath | [Yes](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java) | - | -  | - | - | - | [Yes](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java) | - | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_path)| -
+5. Generation classes at compile-time | - | - | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/logansquare)  | - | - | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/ig_json_parser) | - | - | -| -
 6. Github's star | 4851 | 4120 | 2188  | 1937 | 1732 | 921 | 881 | 108 | 849 | 161
-7. Working with static inner class | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | - | -
-8. Required annotations | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson)  | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi)  | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson)  | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson)  | - | -
+7. Working with static inner class | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/fastjson) | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/gson) | [No](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/logansquare) | - | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/moshi) | [No](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/ig_json_parser) | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/jackson) | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/genson) | - | -
+8. Required annotations | [No](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/fastjson) | [No](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/gson)  | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/logansquare) | - | [No](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/moshi)  | [Yes](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/ig_json_parser) | [No](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/jackson)  | [No](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/genson)  | - | -
 
 From [useful-java-links](#useful-java-links):
 
 ##### JSON Parsers
-1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)  Fast JSON Processor , github's star - 4851. [User guide](https://github.com/alibaba/fastjson) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage, github's star - 4120. [User guide](https://github.com/google/gson/blob/master/UserGuide.md) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library, github's star - 2188. [User guide](https://github.com/bluelinelabs/LoganSquare#usage) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [JSON java](https://github.com/stleary/JSON-java) A reference implementation of a JSON package in Java, github's star - 1937. [User guide](https://github.com/stleary/JSON-java) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java). License: [Crockford's license (MIT License + "Good, not Evil")](https://en.wikipedia.org/wiki/Douglas_Crockford#.22Good.2C_not_Evil.22).
-1.  [Square Moshi](https://github.com/square/moshi) A modern JSON library for Android and Java , github's star - 1732. [User guide](https://github.com/square/moshi#moshi) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Instagram Ig json parser](https://github.com/Instagram/ig-json-parser) Fast JSON parser for java projects, github's star - 921. [User guide](https://github.com/Instagram/ig-json-parser#getting-started) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser). License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often. Subprojects: [Jackson core](https://github.com/FasterXML/jackson-core) Core part of Jackson, [Jackson databind](https://github.com/FasterXML/jackson-databind) Core part of Jackson that defines Streaming API as well as basic shared abstractions, github's star - 881. [User guide](https://github.com/FasterXML/jackson-docs) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [JSON.simple](https://github.com/fangyidong/json-simple) - A simple Java toolkit for JSON. You can use json-simple to encode or decode JSON text, github's star - 161. [User guide](https://code.google.com/archive/p/json-simple/wikis) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_simple). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Genson](http://owlike.github.io/genson/) -Powerful and easy to use Java to JSON conversion library, github's star - 108. [User guide](http://owlike.github.io/genson/Documentation/UserGuide/) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)  Fast JSON Processor , github's star - 4851. [User guide](https://github.com/alibaba/fastjson) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/fastjson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
+1.  [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage, github's star - 4120. [User guide](https://github.com/google/gson/blob/master/UserGuide.md) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/gson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
+1.  [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library, github's star - 2188. [User guide](https://github.com/bluelinelabs/LoganSquare#usage) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/logansquare). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
+1.  [JSON java](https://github.com/stleary/JSON-java) A reference implementation of a JSON package in Java, github's star - 1937. [User guide](https://github.com/stleary/JSON-java) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_java). License: [Crockford's license (MIT License + "Good, not Evil")](https://en.wikipedia.org/wiki/Douglas_Crockford#.22Good.2C_not_Evil.22).
+1.  [Square Moshi](https://github.com/square/moshi) A modern JSON library for Android and Java , github's star - 1732. [User guide](https://github.com/square/moshi#moshi) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/moshi). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
+1.  [Instagram Ig json parser](https://github.com/Instagram/ig-json-parser) Fast JSON parser for java projects, github's star - 921. [User guide](https://github.com/Instagram/ig-json-parser#getting-started) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/ig_json_parser). License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
+1.  [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often. Subprojects: [Jackson core](https://github.com/FasterXML/jackson-core) Core part of Jackson, [Jackson databind](https://github.com/FasterXML/jackson-databind) Core part of Jackson that defines Streaming API as well as basic shared abstractions, github's star - 881. [User guide](https://github.com/FasterXML/jackson-docs) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/jackson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
+1.  [JSON.simple](https://github.com/fangyidong/json-simple) - A simple Java toolkit for JSON. You can use json-simple to encode or decode JSON text, github's star - 161. [User guide](https://code.google.com/archive/p/json-simple/wikis) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_simple). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
+1.  [Genson](http://owlike.github.io/genson/) -Powerful and easy to use Java to JSON conversion library, github's star - 108. [User guide](http://owlike.github.io/genson/Documentation/UserGuide/) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/genson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
 
 ##### Analog XPath for JSON
-1.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath implementation, github's star - 849.  [User guide](https://github.com/jayway/JsonPath#getting-started) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)  Fast JSON Processor , github's star - 4851. [User guide](https://github.com/alibaba/fastjson) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath implementation, github's star - 849.  [User guide](https://github.com/jayway/JsonPath#getting-started) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_path). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
+1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)  Fast JSON Processor , github's star - 4851. [User guide](https://github.com/alibaba/fastjson) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/fastjson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
 
 ##### Generates Java types from JSON or JSON Schema or JSON validation
-1.  [Jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo) Generates Java types from JSON Schema (or example JSON) and annotates those types for data-binding with Jackson 1.x or 2.x, Gson, etc. , github's star - 1664. [User guide](https://github.com/joelittlejohn/jsonschema2pojo/wiki/Getting-Started) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jsonschema2pojo). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Json schema validator](https://github.com/fge/json-schema-validator) A JSON Schema validation implementation in pure Java, which aims for correctness and performance, in that order, also can generate Java types from JSON Schema or versa versa, github's star - 547. [User guide](https://github.com/fge/json-schema-validator#read-me-first) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_schema_validator). License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)/[Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo) Generates Java types from JSON Schema (or example JSON) and annotates those types for data-binding with Jackson 1.x or 2.x, Gson, etc. , github's star - 1664. [User guide](https://github.com/joelittlejohn/jsonschema2pojo/wiki/Getting-Started) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/jsonschema2pojo). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
+1.  [Json schema validator](https://github.com/fge/json-schema-validator) A JSON Schema validation implementation in pure Java, which aims for correctness and performance, in that order, also can generate Java types from JSON Schema or versa versa, github's star - 547. [User guide](https://github.com/fge/json-schema-validator#read-me-first) and [Hello World examples](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_schema_validator). License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)/[Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/teocci/JavaGuideLinks/blob/master/images/business-friendly.png?raw=true)
 
 ### 2. Json parsers using Data bind
 
@@ -116,29 +116,29 @@ jsonString =
 
 **1) Fastjson**:
 ```java
-        // convert to json
-        String jsonString = JSON.toJSONString(human);
-        System.out.println("json " + jsonString); //  print "json {"message":"Hi","place":{"name":"World"}}"
+    // convert to json
+    String jsonString = JSON.toJSONString(human);
+    System.out.println("json " + jsonString); //  print "json {"message":"Hi","place":{"name":"World"}}"
 
-        // convert from json
-        Human newHuman = JSON.parseObject(jsonString, Human.class);
-        newHuman.say(); //  print "Hi , World!"
+    // convert from json
+    Human newHuman = JSON.parseObject(jsonString, Human.class);
+    newHuman.say(); //  print "Hi , World!"
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/FastJsonHelloWorld.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/fastjson/src/main/java/fastjson/FastJsonHelloWorld.java)
 
 **2) Gson**
 ```java
-        // convert to json
-        Gson gson = new Gson();
-        String jsonString = gson.toJson(human);
-        System.out.println("json " + jsonString); //  print   "json {"message":"Hi","place":{"name":"World"}}"
+    // convert to json
+    Gson gson = new Gson();
+    String jsonString = gson.toJson(human);
+    System.out.println("json " + jsonString); //  print   "json {"message":"Hi","place":{"name":"World"}}"
 
-        // convert from json
-        Human newHuman = gson.fromJson(jsonString, Human.class);
-        newHuman.say(); //  print   "Hi , World!"
+    // convert from json
+    Human newHuman = gson.fromJson(jsonString, Human.class);
+    newHuman.say(); //  print   "Hi , World!"
 
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/GsonHelloWorld.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/gson/src/main/java/gson/GsonHelloWorld.java)
 
 **3) LoganSquare**
 ```java
@@ -160,7 +160,7 @@ public class Human {
         newHuman.say(); // print  "Hi , World!"
 
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare/src/main/java/logansquare)
+[Full example](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/logansquare/src/main/java/logansquare)
 
 **4) Moshi**
 ```java
@@ -176,7 +176,7 @@ public class Human {
         newHuman.say(); //  print  "Hi , World!"
 
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/moshi/src/main/java/moshi/MoshiHelloWorld.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/moshi/src/main/java/moshi/MoshiHelloWorld.java)
 
 **5) Ig json parser**
 ```java
@@ -197,7 +197,7 @@ public class Human {
         Human newHuman = Human__JsonHelper.parseFromJson(jsonString);
         newHuman.say(); //  print  "Hi , World!"
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser/src/main/java/ig_json_parser)
+[Full example](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/ig_json_parser/src/main/java/ig_json_parser)
 
 **5. Jackson**
 ```java
@@ -210,7 +210,7 @@ public class Human {
         Human newHuman = mapper.readValue(jsonString, Human.class);
         newHuman.say(); //  print  "Hi , World!"
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/JacksonHelloWorld.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/jackson/src/main/java/jackson/JacksonHelloWorld.java)
 
 **6. Genson**
 ```java
@@ -223,7 +223,7 @@ public class Human {
         Human newHuman =  new Genson().deserialize(jsonString, Human.class);
         newHuman.say(); //  print   "Hi , World!"
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/genson/src/main/java/genson/GensonHelloWorld.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/genson/src/main/java/genson/GensonHelloWorld.java)
 
 ### 3. Json parsers using Tree Model
 
@@ -259,7 +259,7 @@ Add child object | `root.add(<name>, <object>);` | `root.putObject(<name>)` |   
         String place = childObject.get("name").getAsString(); // get field "name"
         System.out.println(message + " " + place); // pring "Hi World!"*/
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)
  
 2) Building json using Gson
 
@@ -274,7 +274,7 @@ Add child object | `root.add(<name>, <object>);` | `root.putObject(<name>)` |   
         String json = gson.toJson(rootObject); 
         System.out.println(json); // print "{"message":"Hi","place":{"name":"World!"}}"
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)
  
 
 3)  Parsing json using  Jackson
@@ -287,7 +287,7 @@ Add child object | `root.add(<name>, <object>);` | `root.putObject(<name>)` |   
         String place = childNode.get("name").asText(); 
         System.out.println(message + " " + place); // print "Hi World!"
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java)
  
 4) Building json using Jackson
 
@@ -303,7 +303,7 @@ Add child object | `root.add(<name>, <object>);` | `root.putObject(<name>)` |   
 
         System.out.println(outputStream.toString()); // print "{"message":"Hi","place":{"name":"World!"}}"
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java)
  
 
 5) Parsing and building json using Json Java
@@ -325,7 +325,7 @@ Add child object | `root.add(<name>, <object>);` | `root.putObject(<name>)` |   
         String name = jsonObject.getJSONObject("place").getString("name");
         System.out.println(message + " " + name); // print "Hi World!"
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java)
+[Full example](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_java)
 
  6) Parsing json using JSON.simple
  ```java
@@ -336,7 +336,7 @@ Add child object | `root.add(<name>, <object>);` | `root.putObject(<name>)` |   
         String name = (String) place.get("name");
         System.out.println(message + " " + name);
   ```
- [Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/json_simple/src/main/java/json_simple/JsonSimpleHelloWorld.java)
+ [Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/json_simple/src/main/java/json_simple/JsonSimpleHelloWorld.java)
   
  7) Building json using JSON.simple
  
@@ -350,7 +350,7 @@ Add child object | `root.add(<name>, <object>);` | `root.putObject(<name>)` |   
          String json = root.toJSONString();
          System.out.println(json);
  ```
- [Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/json_simple/src/main/java/json_simple/JsonSimpleHelloWorld.java)
+ [Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/json_simple/src/main/java/json_simple/JsonSimpleHelloWorld.java)
 
 
 
@@ -400,7 +400,7 @@ String value token | `writer.value(<string>)` |  `generator.writeStringField(<na
         }
         reader.close();
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/StreamingAPI.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/gson/src/main/java/gson/advanced/StreamingAPI.java)
  
 
 2) Building json using Gson
@@ -420,7 +420,7 @@ String value token | `writer.value(<string>)` |  `generator.writeStringField(<na
         writer.close();
         System.out.println(outputStream.toString()); // print "{"message":"Hi","place":{"name":"World!"}}"
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/StreamingAPI.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/gson/src/main/java/gson/advanced/StreamingAPI.java)
  
 
 3) Parsing json using Jackson
@@ -436,7 +436,7 @@ String value token | `writer.value(<string>)` |  `generator.writeStringField(<na
             jsonToken = jsonParser.nextToken();
         }
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/StreamingAPI.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/jackson/src/main/java/jackson/advanced/StreamingAPI.java)
  
 
 2) Building json using Jackson
@@ -456,7 +456,7 @@ String value token | `writer.value(<string>)` |  `generator.writeStringField(<na
         System.out.println(outputStream.toString()); // print "{"message":"Hi","place":{"name":"World!"}}"
 
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/StreamingAPI.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/jackson/src/main/java/jackson/advanced/StreamingAPI.java)
  
 
 ### 5 XPath analogs for json
@@ -464,7 +464,7 @@ String value token | `writer.value(<string>)` |  `generator.writeStringField(<na
 
 **Methods**: | [JsonPath](https://github.com/jayway/JsonPath) | [FastJson](https://github.com/alibaba/fastjson) | [Jackson](http://wiki.fasterxml.com/JacksonHome)
 ---------- 	 | --- | --- | --- 
-Type  	 | [XPath-like](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path) | [XPath-like](https://github.com/alibaba/fastjson/wiki/JSONPath) | [JSON Pointer-like](https://tools.ietf.org/html/rfc6901)
+Type  	 | [XPath-like](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_path) | [XPath-like](https://github.com/alibaba/fastjson/wiki/JSONPath) | [JSON Pointer-like](https://tools.ietf.org/html/rfc6901)
 Initialization | - | - | mapper = new ObjectMapper()
 Get value using template | `JsonPath.read(<json>, <template>)`  |  `JSONPath.eval(<java_object>, <template>)` | `mapper.readTree(<json>).at(<template>)`
 Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPath.eval(<java_object>, <template>)` | `mapper.readTree(<json>).at(<template>)` 
@@ -479,7 +479,7 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
         System.out.println(message + " " + place); // print "Hi World!"
 
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
+[Full example](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_path)
  
 
 2) Using FastJson
@@ -492,7 +492,7 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
         System.out.println(message + " " + world); // print Hi World
 
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java)
  
 
 3) More complex example using JsonPath 
@@ -548,7 +548,7 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
             "}";
 ```
  
-[Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
+[Full example](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_path)
 
 4) Using Jackson
 ```java
@@ -558,7 +558,7 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
         String place = mapper.readTree(jsonHiWorld).at("/place/name").asText();
         System.out.println(message + " " + place); // print "Hi World!"
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java)
 
 5) Using Jackson ( More complex example)
 ```java
@@ -605,7 +605,7 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
             "    \"expensive\": 10\n" +
             "}";
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java)
 
 
 ### 6 Generates Java classes from JSON or JSON Schema and JSON validation
@@ -658,7 +658,7 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
         System.out.println(codeHelloWorld);
 
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jsonschema2pojo)
+[Full example](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/jsonschema2pojo)
 
 2) Validate Json using json schema (using jsonschema2pojo)
 
@@ -683,7 +683,7 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
         report = schema.validate(bad2);
         System.out.println(report);
 ```
-[Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_schema_validator)
+[Full example](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_schema_validator)
 
 3) Generation Java classes using jsonschema2pojo and maven plugin 
 
@@ -713,7 +713,7 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
 - Save json shema to sourceDirectory 
 - After maven/install Java classes will be generated  
 
-[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jsonschema2pojo/pom.xml)
+[Full example](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/3.8-json/jsonschema2pojo/pom.xml)
 
 ## 7. Documentations 
 
@@ -739,17 +739,17 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
 1.  [Json schema validator](https://github.com/fge/json-schema-validator#read-me-first)
 
 **All examples**: 
-  1.  [Alibaba Fastjson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson)
-  2.  [Gson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson)
-  3.  [LoganSquare](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)
-  4.  [JSON java](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java)
-  5.  [Square Moshi](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi)
-  6.  [Instagram Ig json parser](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser)
-  7.  [Jackson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson)
-  8.  [Genson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson)
-  9.  [Jayway JsonPath](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
-  10.  [Jsonschema2pojo](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jsonschema2pojo)
-  11.  [Json schema validator](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_schema_validator)
+  1.  [Alibaba Fastjson](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/fastjson)
+  2.  [Gson](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/gson)
+  3.  [LoganSquare](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/logansquare)
+  4.  [JSON java](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_java)
+  5.  [Square Moshi](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/moshi)
+  6.  [Instagram Ig json parser](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/ig_json_parser)
+  7.  [Jackson](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/jackson)
+  8.  [Genson](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/genson)
+  9.  [Jayway JsonPath](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_path)
+  10.  [Jsonschema2pojo](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/jsonschema2pojo)
+  11.  [Json schema validator](https://github.com/teocci/JavaGuideLinks/tree/master/CodeSamples/3.8-json/json_schema_validator)
   
 
-If you want to help this project, see this [guidelines](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/contributing.md)
+If you want to help this project, see this [guidelines](https://github.com/teocci/JavaGuideLinks/blob/master/CodeSamples/contributing.md)
